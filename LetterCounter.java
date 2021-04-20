@@ -5,21 +5,21 @@ import java.util.Scanner;
 //Class LetterCounter definition
 public class LetterCounter {
 	
-    //Static variables
+    	//Static variables
 	public static int[] alphabetCount = new int[26];
 	public static int i, j = 0;
 	public static boolean charactersMatched = false;
 	public static String input;
 	
-    //Main function
+    	//Main function
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter a string with all lowercase letters: ");
 		input = scan.nextLine();
-        System.out.println("\nYou entered: " + input + "\n");
-        LetterCounter.countLetters(input);
+        	System.out.println("\nYou entered: " + input + "\n");
+        	LetterCounter.countLetters(input);
 		LetterCounter.displayLetterFrequency();
-        scan.close();
+        	scan.close();
 		System.out.println("Goodbye!\n");
 	}
 	
@@ -33,18 +33,18 @@ public class LetterCounter {
 				if (s.charAt(i) == (char)(97 + j)){
 					charactersMatched = true;
 					alphabetCount[j] += 1;
-                } else
-                    j++;
-            }
-        }
-    }
+                		} else
+                    			j++;
+            		}
+        	}
+    	}
 
-    // Displays the frequency of each letter in the input String.
-    public static void displayLetterFrequency() {
-        System.out.println("Letter : Count");
-        for (i = 0; i < 26; i++) {
-            System.out.println(((char) (97 + i)) + " : " + alphabetCount[i]);
+    	// Displays the frequency of each letter in the input String.
+    	public static void displayLetterFrequency() {
+        	System.out.println("Letter : Count");
+        	for (i = 0; i < 26; i++) {
+            		System.out.println(((char) (97 + i)) + " : " + alphabetCount[i]);
 		}
-        System.out.println();
+        	System.out.println();
 	}
 }
