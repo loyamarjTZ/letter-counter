@@ -1,3 +1,8 @@
+/*
+This program asks the user to input a string consisting of all lowercase
+letters and no spaces, then displays the frequency of each letter found 
+in the string.
+*/
 
 //Importing Scanner class
 import java.util.Scanner;
