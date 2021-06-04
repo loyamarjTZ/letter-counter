@@ -10,7 +10,7 @@ import java.util.Scanner;
 //Class LetterCounter definition
 public class LetterCounter {
 	
-    	//Static variables
+    	//Static variables 
 	public static int[] alphabetCount = new int[26];
 	public static int i, j = 0;
 	public static boolean charactersMatched = false;
