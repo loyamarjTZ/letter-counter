@@ -29,7 +29,7 @@ public class LetterCounter {
 	}
 	
 	//PRECONDITION: String "input" is written in all lower case letters with no spaces. 
-	//POSTCONDITION: Array "alphabetCount" is updated with the frequency of each letter.
+	//POSTCONDITION: Array "alphabetCount" is updated with the frequency of each letter. 
 	public static void countLetters(String s){	
 		for(i = 0; i < s.length(); i++){
 			j = 0;
