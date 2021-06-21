@@ -16,7 +16,7 @@ public class LetterCounter {
 	public static boolean charactersMatched = false;
 	public static String input;
 	
-    	//Main function 
+    	//Main function
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter a string with all lowercase letters: ");
